@@ -3,13 +3,13 @@ import "@styles/globals.css";
 import Provider from "@components/Provider";
 
 export const metadata = {
-  title: "Dog sniffer",
-  description: "Be your dog's matchmaker",
+  title: "Your title",
+  description: "Your description",
 };
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="en" data-theme="bumblebee">
+    <html lang="en">
       <body>
         <Provider>
           <main className="app">

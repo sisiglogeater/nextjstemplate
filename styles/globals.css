@@ -8,24 +8,24 @@
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
 
-.main {
+.app {
     width: 100vw;
     min-height: 100vh;
     position: fixed;
     display: flex;
     justify-content: center;
-    padding: 120px 24px 160px 24px;
+    margin: 0px;
     pointer-events: none;
 }
 
 @media screen and (max-width: 640px) {
     .main {
-        padding: 0;
+        padding: 120px 0px 160px 0px;
     }
 }
 
 /* Tailwind Styles */
 
 .app {
-    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+    @apply relative z-10 flex justify-start items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
